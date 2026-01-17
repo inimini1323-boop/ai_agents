@@ -24,14 +24,16 @@
 
   <!-- importmapは「どこからimportするか」の地図。これだけでは何も起きない -->
   <script type="importmap">
-  {
-    "imports": {
-      "react": "https://esm.sh/react@19.2.0",
-      "react-dom/client": "https://esm.sh/react-dom@19.2.0/client",
-      "@google/genai": "https://esm.sh/@google/genai@1.37.0"
-    }
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.2.0/client",
+    "@google/genai": "https://esm.sh/@google/genai@1.37.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
   }
-  </script>
+}
+</script>
 </head>
 
 <body class="sparkle-bg min-h-screen">
